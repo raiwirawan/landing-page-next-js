@@ -4,7 +4,7 @@ import SubscribeSection from "@/components/subscribe-section";
 import SecondaryHero from "@/components/secondary-hero";
 import FeaturedSection from "@/components/featured-section";
 import NumberedSection from "@/components/numbered-section";
-import SpeakersSection from "@/components/speakers-section";
+import PresentersSection from "@/components/presenters-section";
 import FinalCta from "@/components/final-cta";
 import Footer from "@/components/footer";
 
@@ -17,7 +17,7 @@ export default function Home() {
 			<SecondaryHero />
 			<FeaturedSection />
 			<NumberedSection />
-			<SpeakersSection />
+			<PresentersSection />
 			<FinalCta />
 			<Footer />
 		</main>

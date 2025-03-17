@@ -8,24 +8,22 @@ export default function SubscribeSection() {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		// Handle form submission
 		console.log({ name, email });
 	};
 
 	return (
-		<section className="w-full py-16 px-6 md:px-12">
-			<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+		<section id="subscribe" className="container mx-auto">
+			<div className="grid md:grid-cols-2 gap-12 py-30">
 				<div>
 					<h2 className="text-3xl font-bold mb-4 text-gray-800">
-						Subscribe to our mailing list
+						Berlangganan ke Newsletter Kami
 					</h2>
 				</div>
 				<div>
 					<p className="text-gray-600 mb-6">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-						mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-						fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
-						vitae mattis tellus.
+						Dapatkan berita terbaru, artikel inspiratif, dan informasi eksklusif
+						langsung di kotak masuk Anda. Bergabunglah dengan newsletter kami
+						dan tetap terhubung dengan perkembangan terbaru dari kami.
 					</p>
 					<form onSubmit={handleSubmit}>
 						<div className="mb-4">
@@ -33,7 +31,7 @@ export default function SubscribeSection() {
 								htmlFor="name"
 								className="block text-sm font-medium text-gray-700 mb-1"
 							>
-								Name
+								Nama
 							</label>
 							<input
 								type="text"
@@ -64,7 +62,7 @@ export default function SubscribeSection() {
 							type="submit"
 							className="bg-gray-800 text-white font-medium py-3 px-6 rounded-full hover:bg-gray-700 transition-colors"
 						>
-							Call to action
+							Submit
 						</button>
 					</form>
 				</div>
