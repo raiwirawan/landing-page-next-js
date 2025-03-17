@@ -13,7 +13,7 @@ export default function Hero() {
 			/>
 			<div className="relative w-full h-full text-white py-60">
 				<div className="absolute inset-0 bg-gradient-to-r from-purple-700 to-transparent"></div>
-				<div className="relative container mx-auto z-[20]">
+				<div className="relative w-full container px-10 mx-auto z-[20]">
 					<div className="mb-4">
 						<span className="text-lg font-medium">Januari - Desember</span>
 					</div>

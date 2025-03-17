@@ -6,7 +6,7 @@ export default function NumberedSection() {
 			id="numbered-section"
 			className="w-full bg-purple-700 bg-gradient-to-r from-purple-700 to-purple-600 text-white py-16 md:py-24 px-6 md:px-12"
 		>
-			<div className="container mx-auto">
+			<div className="container mx-auto px-10">
 				<div className="py-20 w-full flex flex-row gap-[7em]">
 					<div className="flex-1/2">
 						<h2 className="text-3xl font-bold mb-6">

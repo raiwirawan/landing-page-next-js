@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function FeaturedSection() {
 	return (
-		<section id="featured-section" className="container mx-auto py-16">
+		<section id="featured-section" className="container px-10 mx-auto py-16">
 			<div className="grid md:grid-cols-2 gap-12 items-center">
 				<div className="bg-gray-200 min-h-[300px] rounded-lg relative">
 					<Image
