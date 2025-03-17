@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function FeaturedSection() {
 	return (
-		<section className="w-full py-16 px-6 md:px-12">
-			<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+		<section className="container mx-auto py-16">
+			<div className="grid md:grid-cols-2 gap-12 items-center">
 				<div className="bg-gray-200 min-h-[300px] rounded-lg">
 					{/* Auditorium image container - left empty as requested */}
 				</div>

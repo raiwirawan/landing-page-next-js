@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
 	return (
-		<section className="w-full relative h-[100vh]">
+		<section className="w-full relative">
 			<Image
 				src="/images/hero-image.webp"
 				alt="Hero Image"
@@ -11,8 +11,9 @@ export default function Hero() {
 				style={{ objectFit: "cover", objectPosition: "center" }}
 				className="absolute top-0 left-0 z-[-1]"
 			/>
-			<div className="relatives bg-purple-700 w-full h-full top-0 left-0 bg-gradient-to-r from-purple-700 to-transparent text-white">
-				<div className="max-w-3xl">
+			<div className="relatives w-full h-full text-white py-24">
+				<div className="absolute inset-0 bg-gradient-to-r from-purple-700 to-transparent"></div>
+				<div className="relative container mx-auto z-index-20">
 					<div className="mb-4">
 						<span className="text-lg font-medium">May - July</span>
 					</div>

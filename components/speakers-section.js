@@ -1,7 +1,7 @@
 export default function SpeakersSection() {
 	return (
 		<section className="w-full py-16 px-6 md:px-12">
-			<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+			<div className="container mx-auto grid md:grid-cols-2 gap-12">
 				<div className="flex items-start space-x-6">
 					<div className="w-32 h-40 bg-gray-200 rounded-lg flex-shrink-0">
 						{/* Speaker image container - left empty as requested */}

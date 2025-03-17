@@ -13,8 +13,8 @@ export default function SubscribeSection() {
 	};
 
 	return (
-		<section className="w-full py-16 px-6 md:px-12">
-			<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+		<section className="container mx-auto py-16">
+			<div className="grid md:grid-cols-2 gap-12">
 				<div>
 					<h2 className="text-3xl font-bold mb-4 text-gray-800">
 						Subscribe to our mailing list

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NumberedSection() {
 	return (
 		<section className="w-full bg-purple-700 bg-gradient-to-r from-purple-700 to-purple-600 text-white py-16 md:py-24 px-6 md:px-12">
-			<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+			<div className="container mx-auto grid md:grid-cols-2 gap-12">
 				<div>
 					<h2 className="text-3xl font-bold mb-6">Number 01</h2>
 					<p className="mb-8 opacity-90">
