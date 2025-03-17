@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PresentersSection() {
 	return (
-		<section id="presenters-section" className="w-full py-16 px-6 md:px-12">
+		<section id="presenters-section" className="w-full py-16 px-10 md:px-12">
 			<div className="container mx-auto flex flex-row">
 				<div className="flex flex-1/2 items-start space-x-6">
 					<div className="w-60 relative h-70 bg-gray-200 rounded-lg flex-shrink-0">

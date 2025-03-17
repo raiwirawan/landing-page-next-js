@@ -5,7 +5,7 @@ import LinkedIn from "./icons/linkedin";
 export default function Navbar() {
 	return (
 		<header className="py-4 bg-white w-full fixed top-0 z-[100]">
-			<nav className="container mx-auto flex justify-between items-center">
+			<nav className="container px-10 mx-auto flex justify-between items-center">
 				<div className="flex items-center">
 					<div className="h-8 w-24 relative flex items-center">
 						<span className="font-bold text-lg">RAIMEDIA.</span>
