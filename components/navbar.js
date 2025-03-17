@@ -5,7 +5,7 @@ export default function Navbar() {
 		<header className="w-full py-4 px-6 md:px-12 flex justify-between items-center">
 			<div className="flex items-center">
 				<div className="h-8 w-24 relative flex items-center">
-					<span className="font-bold text-lg">LOGO</span>
+					<span className="font-bold text-lg">RAIMEDIA.</span>
 				</div>
 			</div>
 
